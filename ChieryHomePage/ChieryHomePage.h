@@ -6,8 +6,7 @@
 //  Copyright © 2018年 com.chiery.com. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-
-@interface ChieryHomePage : NSObject
+#import <UIKit/UIKit.h>
+@interface ChieryHomePage : UIViewController
 
 @end
