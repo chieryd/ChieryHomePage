@@ -1,6 +1,6 @@
 CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/ChieryCommonKit
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/ChieryCommonKit" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/ChieryCommonKit"
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/ChieryCommonKit" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/ChieryCommonKit" "${PODS_ROOT}/Headers/Public/ChieryJumpHandle"
 OTHER_LDFLAGS = -framework "UIkit"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)

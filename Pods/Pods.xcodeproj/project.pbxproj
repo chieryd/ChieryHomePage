@@ -7,41 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0BA08D237291963BA9931D06BD759496 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4640A638304C6B1FCC0D988F66EE47 /* MASConstraintMaker.m */; };
-		0D197FE1A5C5474FAD82A4FCCF5BD3E4 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 666166EB608A2613D39CA1606CD4FED8 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1C91694FCBA269E4DD7DB76ACCF40FDB /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 158E356A4303B92111258B222968C8B7 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		22961DDA0B97186F32B7FA4B19541807 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CAC429F960D057F81549A680CEE558 /* View+MASAdditions.m */; };
-		2627786E54050BBD0B1539F12E392B52 /* ChieryCommonKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9107DAA04A56006A904BAAA3F74AF7E /* ChieryCommonKit-dummy.m */; };
-		26C7756AF6A78CEE6E1DDB4EEDA53F14 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = CF43214DCECF143BFEF911F0D4CA050E /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		26DA11EFBFBEEE6FC223BE39F6BD26B7 /* Pods-ChieryHomePage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D09CB51B288CE79F89CF266CB33E424 /* Pods-ChieryHomePage-dummy.m */; };
-		2D8614E07139C61EEBD6737EEF5627C2 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D89612731ED18DB890058012C5D2A6F /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2D90E3198BCD082433B2C68824EC5785 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CFD75EBF0D15C7B1BB4FF7D11A5784 /* ViewController+MASAdditions.m */; };
-		2EC283815889CFD3037C633A2C8DC6BD /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 24D1BAC0F8842B73EC6D2F1409B7ED52 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		30EFA172A2BE401B7CABE09EC2FBD4E1 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 27D22BFCC85064FE69024138EC8B64C1 /* Masonry.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		50C3D976D714CA46795EE4FD1ED1B47C /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DCACBCF70DC884B9B0D5D2C9BC22E5C /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		529767E568A5D9E91ADF64906CDA77B3 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FBBEBBFAC6FA33AAAE3FDC84D953EA /* NSArray+MASAdditions.m */; };
-		536C5D0757FCBFC44D38C1E5BD76B0A0 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C672BDDB1DDBC5D01A2F7C9D92558CC /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5F6FE58593BA7EDCFB73B0E7ADF15846 /* ChieryCommonKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D4F3FF0DD145E77A2A8A83205B74DF4 /* ChieryCommonKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		61FF9020FAB7DF7CD484FB0C56B089E9 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 33F41A70DF772C2C50B998988861F996 /* MASConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		64B519C7649B3D0F91B11BDA15FEE555 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CF23248342C96E4EE035EF58FCAC59F /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0BA08D237291963BA9931D06BD759496 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = B09DED5136F702F884ADD2069718F267 /* MASConstraintMaker.m */; };
+		0D0F3A0713E062C0E9F4BFDEBEDEC8BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C485B96747F6C8B95ED05103FAFB011 /* Foundation.framework */; };
+		0D197FE1A5C5474FAD82A4FCCF5BD3E4 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FD76A9D898229836E124D1E07047728F /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0F98C7D11D5DB2D6A4F98ECA4957ACC7 /* ChieryJumpHandleResponsePrt.h in Headers */ = {isa = PBXBuildFile; fileRef = 197DA1597FBBAF18A9A99086ADAC6CDA /* ChieryJumpHandleResponsePrt.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1C91694FCBA269E4DD7DB76ACCF40FDB /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = ABDCFD288AEBED3588F4AA4DD3B7B53A /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		22961DDA0B97186F32B7FA4B19541807 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D46939919971EEEE8E8F43A98B19017B /* View+MASAdditions.m */; };
+		2405C314A4FC5EE3101DF28C4171BD9B /* ChieryJumpHandlePrt.h in Headers */ = {isa = PBXBuildFile; fileRef = 994BFDA7B45CFC477980978E80E0DC06 /* ChieryJumpHandlePrt.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2627786E54050BBD0B1539F12E392B52 /* ChieryCommonKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C6E6A1BDA3251A06D644DF07624994CA /* ChieryCommonKit-dummy.m */; };
+		26C7756AF6A78CEE6E1DDB4EEDA53F14 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DFBF7E9DECA1002653C707CFE619B10 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2D8614E07139C61EEBD6737EEF5627C2 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E116C3F823E226DDB85A60F12528539 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2D90E3198BCD082433B2C68824EC5785 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 117649AB80B984101D7B855CBAC518C1 /* ViewController+MASAdditions.m */; };
+		2EC283815889CFD3037C633A2C8DC6BD /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = B7B97B6C5D4AD7647B15640397DEEB0F /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		30EFA172A2BE401B7CABE09EC2FBD4E1 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = C289E03E30D4794D7B39E1EB47DA977D /* Masonry.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		50C3D976D714CA46795EE4FD1ED1B47C /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 197EE54F683E4733498653C78EA38471 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		522D75C583589DE863482EBC7DAF7871 /* Pods-ChieryHomePage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D09CB51B288CE79F89CF266CB33E424 /* Pods-ChieryHomePage-dummy.m */; };
+		529767E568A5D9E91ADF64906CDA77B3 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F674E6F4B66BB4DBB401F0EA844BE81C /* NSArray+MASAdditions.m */; };
+		536C5D0757FCBFC44D38C1E5BD76B0A0 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = E926417FFFDE9C4A4EA0EC7CF3B24349 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5F6FE58593BA7EDCFB73B0E7ADF15846 /* ChieryCommonKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F212A5DF2D2C16D4D33DC43FE7039858 /* ChieryCommonKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		61FF9020FAB7DF7CD484FB0C56B089E9 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = A2F6D4823CBC0616B0767632520DCBBE /* MASConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		62B86944565D80DFF6AD418B29B2ED07 /* ChieryJumpHandle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D2A8E2C25D60AFF39B424C80F0EBAC /* ChieryJumpHandle-dummy.m */; };
+		64B519C7649B3D0F91B11BDA15FEE555 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = AA96352675E380B1840FA0B4E190E07E /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		72ECBA357347FAFB2A55A9E634FB6E1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C485B96747F6C8B95ED05103FAFB011 /* Foundation.framework */; };
-		82857E0A558C5CE823D848543563A88D /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 086C7E6AE09FC0E1A09C3E8D1F4E10B9 /* MASUtilities.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A0FF6A34D9600D6290545FA4AC8DD3DF /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = B3C146DC3CAAFA09FE28161BC2E0DD44 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A2A2F684BE8ADAFEA5C649C427C4DCC2 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E7D61DA8817763AF38A8E6F7DC7606 /* MASLayoutConstraint.m */; };
-		BFD2DE27CAD51334806C0B4C7EE5383B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C485B96747F6C8B95ED05103FAFB011 /* Foundation.framework */; };
-		CA63CDE341801E8ACFD7475FA738A967 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 115C44667F60EB84A852A843FC799C7D /* MASViewConstraint.m */; };
-		CDBAE3DD11962AF80E153A90DAEF4661 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A2DE2300391518A79C0B9D085972F240 /* NSLayoutConstraint+MASDebugAdditions.m */; };
-		DBF38ACD543B2B72AB6AB72C3AE2C864 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8DC0E32BC370DEEA8D81318BF908C3 /* MASCompositeConstraint.m */; };
-		DDA963666A94F8A111C77F42A7B4977F /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BDF0B4BC64A27EF9C62A40A8BC445DD /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E6D2CBAD4945B5748C5B57A2905ED4C0 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 8096C1803745E7D2B7C6F917C966404C /* MASConstraint.m */; };
-		F0B189AAA69DD768AFBBD55F941F3311 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = CE0901EA4F372104DEF707AFB515520D /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F28C9B719694899534C8F34BE113CF7B /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 0514107B25890D773A12A4B25E64FA30 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		82857E0A558C5CE823D848543563A88D /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 99AA143F6AD22B1CB91587279244F342 /* MASUtilities.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9839D54A31E4E5CB8C6A74996BB21D40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C485B96747F6C8B95ED05103FAFB011 /* Foundation.framework */; };
+		A0FF6A34D9600D6290545FA4AC8DD3DF /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = DB501778FD00DEDA11AB9CE4AA8C6C17 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A2A2F684BE8ADAFEA5C649C427C4DCC2 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA163B06346AF9B41A727DA2B7F89B /* MASLayoutConstraint.m */; };
+		C2417CF62A3A831570347F15E0846552 /* ChieryJumpHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = D52BB46D5080173D1E62899D431344CA /* ChieryJumpHandle.m */; };
+		CA63CDE341801E8ACFD7475FA738A967 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B34BE9B7A0CF84EBCDF78D5500D4B4 /* MASViewConstraint.m */; };
+		CDBAE3DD11962AF80E153A90DAEF4661 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 249A1439E35C688CEF936B029FAF712A /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		DBF38ACD543B2B72AB6AB72C3AE2C864 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = AECBE81D2CCADEBC5EF9F5E0C3A060F6 /* MASCompositeConstraint.m */; };
+		DDA963666A94F8A111C77F42A7B4977F /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DFCCA666BDDA6DB3DB4F47DDC3D2606 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E5AC0621F0E93EF9742CCA3A67142CF5 /* ChieryJumpHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 5107D19DF34BD928DF35011E833DAB51 /* ChieryJumpHandle.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E6D2CBAD4945B5748C5B57A2905ED4C0 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CE5F38631054142550909977EA2BB4 /* MASConstraint.m */; };
+		F0B189AAA69DD768AFBBD55F941F3311 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = B2160B5DC66640C84C6A0E7137E53FAB /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F28C9B719694899534C8F34BE113CF7B /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = AD64B573D7CE14E9C6F98CA2BD123A6C /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F8612E4879438187BDAC599025982CA7 /* UIkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0F36533BFF5683AC7363137C4B36FB6 /* UIkit.framework */; };
-		FCD80D96327F0441100FFC79B4F9F000 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8C50FE9E728A7E9A2879D81A715E2D /* MASViewAttribute.m */; };
+		FCD80D96327F0441100FFC79B4F9F000 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 297DE4CC008CA75E08D8905BD8B1D703 /* MASViewAttribute.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		578B1E3D088F4AAE57A83A7A4833D991 /* PBXContainerItemProxy */ = {
+		2DB0EDB94760DA11CB214DCDFF0CFC5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D64DD468C0E0FF1EE3BF3C7A770CCD89;
+			remoteInfo = ChieryJumpHandle;
+		};
+		521F61376BCA5F51C5BA0A2F4A6A39E1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -51,54 +64,71 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E7D61DA8817763AF38A8E6F7DC7606 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = ChieryCommonKit/3rd/Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
 		028949B502F50FDF2B824F3965537FE8 /* Pods-ChieryHomePage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChieryHomePage.debug.xcconfig"; sourceTree = "<group>"; };
-		03CAC429F960D057F81549A680CEE558 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "ChieryCommonKit/3rd/Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
-		0514107B25890D773A12A4B25E64FA30 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = ChieryCommonKit/3rd/Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
-		086C7E6AE09FC0E1A09C3E8D1F4E10B9 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = ChieryCommonKit/3rd/Masonry/MASUtilities.h; sourceTree = "<group>"; };
-		10A38F8C533F68F3AE95E143E53E6DD4 /* ChieryCommonKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ChieryCommonKit.xcconfig; sourceTree = "<group>"; };
-		115C44667F60EB84A852A843FC799C7D /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = ChieryCommonKit/3rd/Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
-		158E356A4303B92111258B222968C8B7 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "ChieryCommonKit/3rd/Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
-		1D89612731ED18DB890058012C5D2A6F /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = ChieryCommonKit/3rd/Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
-		24D1BAC0F8842B73EC6D2F1409B7ED52 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "ChieryCommonKit/3rd/Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
-		27D22BFCC85064FE69024138EC8B64C1 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = ChieryCommonKit/3rd/Masonry/Masonry.h; sourceTree = "<group>"; };
-		2A9D346285D9FCA2F860E16FD5BBE49C /* libChieryCommonKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libChieryCommonKit.a; path = libChieryCommonKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		33F41A70DF772C2C50B998988861F996 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = ChieryCommonKit/3rd/Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		0AADEC004F4F9347A7871E8C1DDC211F /* ChieryJumpHandle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChieryJumpHandle-prefix.pch"; sourceTree = "<group>"; };
+		117649AB80B984101D7B855CBAC518C1 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "ChieryCommonKit/3rd/Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		197DA1597FBBAF18A9A99086ADAC6CDA /* ChieryJumpHandleResponsePrt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChieryJumpHandleResponsePrt.h; path = ChieryJumpHandle/ChieryJumpHandleResponsePrt.h; sourceTree = "<group>"; };
+		197EE54F683E4733498653C78EA38471 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "ChieryCommonKit/3rd/Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		249A1439E35C688CEF936B029FAF712A /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "ChieryCommonKit/3rd/Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		27C869C840078D8BF7F97ED0A6E872AF /* libPods-ChieryHomePage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ChieryHomePage.a"; path = "libPods-ChieryHomePage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		297DE4CC008CA75E08D8905BD8B1D703 /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = ChieryCommonKit/3rd/Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		2DFCCA666BDDA6DB3DB4F47DDC3D2606 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "ChieryCommonKit/3rd/Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		34DE9C4445B285C178FDF3C52E25C9DA /* jumpMap.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = jumpMap.plist; path = ChieryJumpHandle/jumpMap.plist; sourceTree = "<group>"; };
 		35679E62447E39C2A2EAC836466B9BEE /* Pods-ChieryHomePage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChieryHomePage.release.xcconfig"; sourceTree = "<group>"; };
-		44F739AC73666F7B522194F58924073A /* libPods-ChieryHomePage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ChieryHomePage.a"; path = "libPods-ChieryHomePage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5BDF0B4BC64A27EF9C62A40A8BC445DD /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "ChieryCommonKit/3rd/Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
-		5CF23248342C96E4EE035EF58FCAC59F /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = ChieryCommonKit/3rd/Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		38EA163B06346AF9B41A727DA2B7F89B /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = ChieryCommonKit/3rd/Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		44A8CE1DB58594F70553CB656643FDE0 /* libChieryCommonKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libChieryCommonKit.a; path = libChieryCommonKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E116C3F823E226DDB85A60F12528539 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = ChieryCommonKit/3rd/Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		5107D19DF34BD928DF35011E833DAB51 /* ChieryJumpHandle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChieryJumpHandle.h; path = ChieryJumpHandle/ChieryJumpHandle.h; sourceTree = "<group>"; };
 		5D09CB51B288CE79F89CF266CB33E424 /* Pods-ChieryHomePage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChieryHomePage-dummy.m"; sourceTree = "<group>"; };
-		5D4F3FF0DD145E77A2A8A83205B74DF4 /* ChieryCommonKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChieryCommonKit.h; path = ChieryCommonKit/ChieryCommonKit.h; sourceTree = "<group>"; };
-		666166EB608A2613D39CA1606CD4FED8 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "ChieryCommonKit/3rd/Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		7C485B96747F6C8B95ED05103FAFB011 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		8096C1803745E7D2B7C6F917C966404C /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = ChieryCommonKit/3rd/Masonry/MASConstraint.m; sourceTree = "<group>"; };
-		8A8DC0E32BC370DEEA8D81318BF908C3 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = ChieryCommonKit/3rd/Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
-		8C672BDDB1DDBC5D01A2F7C9D92558CC /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = ChieryCommonKit/3rd/Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		7D4A9879A46DC9CBBF170A902A538C7F /* libChieryJumpHandle.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libChieryJumpHandle.a; path = libChieryJumpHandle.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DFBF7E9DECA1002653C707CFE619B10 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "ChieryCommonKit/3rd/Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		855939D2415DD4D38C76F3F731BC11B6 /* ChieryJumpHandle.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ChieryJumpHandle.xcconfig; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96D2A8E2C25D60AFF39B424C80F0EBAC /* ChieryJumpHandle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ChieryJumpHandle-dummy.m"; sourceTree = "<group>"; };
+		994BFDA7B45CFC477980978E80E0DC06 /* ChieryJumpHandlePrt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChieryJumpHandlePrt.h; path = ChieryJumpHandle/ChieryJumpHandlePrt.h; sourceTree = "<group>"; };
+		99AA143F6AD22B1CB91587279244F342 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = ChieryCommonKit/3rd/Masonry/MASUtilities.h; sourceTree = "<group>"; };
 		99C3067B5B53819F03FF47173D8AE9FF /* Pods-ChieryHomePage-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChieryHomePage-acknowledgements.plist"; sourceTree = "<group>"; };
-		9B8C50FE9E728A7E9A2879D81A715E2D /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = ChieryCommonKit/3rd/Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
-		9DCACBCF70DC884B9B0D5D2C9BC22E5C /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "ChieryCommonKit/3rd/Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		A2DE2300391518A79C0B9D085972F240 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "ChieryCommonKit/3rd/Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
-		A9107DAA04A56006A904BAAA3F74AF7E /* ChieryCommonKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ChieryCommonKit-dummy.m"; sourceTree = "<group>"; };
+		A2F6D4823CBC0616B0767632520DCBBE /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = ChieryCommonKit/3rd/Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		AA96352675E380B1840FA0B4E190E07E /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = ChieryCommonKit/3rd/Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		ABDCFD288AEBED3588F4AA4DD3B7B53A /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "ChieryCommonKit/3rd/Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		AD64B573D7CE14E9C6F98CA2BD123A6C /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = ChieryCommonKit/3rd/Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		AECBE81D2CCADEBC5EF9F5E0C3A060F6 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = ChieryCommonKit/3rd/Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
 		B07E138E8558BB5E915BBB023D54A6FE /* Pods-ChieryHomePage-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChieryHomePage-resources.sh"; sourceTree = "<group>"; };
-		B0CFD75EBF0D15C7B1BB4FF7D11A5784 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "ChieryCommonKit/3rd/Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
-		B1FBBEBBFAC6FA33AAAE3FDC84D953EA /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "ChieryCommonKit/3rd/Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
-		B3C146DC3CAAFA09FE28161BC2E0DD44 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = ChieryCommonKit/3rd/Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
-		C751A9323923D8C5EA0764212E2C9821 /* ChieryCommonKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChieryCommonKit-prefix.pch"; sourceTree = "<group>"; };
-		CE0901EA4F372104DEF707AFB515520D /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "ChieryCommonKit/3rd/Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		CF43214DCECF143BFEF911F0D4CA050E /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "ChieryCommonKit/3rd/Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		B09DED5136F702F884ADD2069718F267 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = ChieryCommonKit/3rd/Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		B0A411747ACC4C75533656FC03BBEDE4 /* ChieryCommonKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChieryCommonKit-prefix.pch"; sourceTree = "<group>"; };
+		B12B7C82501CC13EB66D00D96832B6AB /* ChieryCommonKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ChieryCommonKit.xcconfig; sourceTree = "<group>"; };
+		B2160B5DC66640C84C6A0E7137E53FAB /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "ChieryCommonKit/3rd/Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		B7B97B6C5D4AD7647B15640397DEEB0F /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "ChieryCommonKit/3rd/Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		B8B34BE9B7A0CF84EBCDF78D5500D4B4 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = ChieryCommonKit/3rd/Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		C289E03E30D4794D7B39E1EB47DA977D /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = ChieryCommonKit/3rd/Masonry/Masonry.h; sourceTree = "<group>"; };
+		C6E6A1BDA3251A06D644DF07624994CA /* ChieryCommonKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ChieryCommonKit-dummy.m"; sourceTree = "<group>"; };
 		D0F36533BFF5683AC7363137C4B36FB6 /* UIkit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIkit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIkit.framework; sourceTree = DEVELOPER_DIR; };
+		D46939919971EEEE8E8F43A98B19017B /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "ChieryCommonKit/3rd/Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		D52BB46D5080173D1E62899D431344CA /* ChieryJumpHandle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ChieryJumpHandle.m; path = ChieryJumpHandle/ChieryJumpHandle.m; sourceTree = "<group>"; };
+		D6CE5F38631054142550909977EA2BB4 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = ChieryCommonKit/3rd/Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		DB501778FD00DEDA11AB9CE4AA8C6C17 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = ChieryCommonKit/3rd/Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		E926417FFFDE9C4A4EA0EC7CF3B24349 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = ChieryCommonKit/3rd/Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		F212A5DF2D2C16D4D33DC43FE7039858 /* ChieryCommonKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChieryCommonKit.h; path = ChieryCommonKit/ChieryCommonKit.h; sourceTree = "<group>"; };
+		F674E6F4B66BB4DBB401F0EA844BE81C /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "ChieryCommonKit/3rd/Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
 		F8D0227BD09ABEF8097FE30CAC3AC4D8 /* Pods-ChieryHomePage-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChieryHomePage-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FA4640A638304C6B1FCC0D988F66EE47 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = ChieryCommonKit/3rd/Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		FD76A9D898229836E124D1E07047728F /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "ChieryCommonKit/3rd/Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7E64FEAAAA23523F02B9E6E4144E1F11 /* Frameworks */ = {
+		4C0AF86B9296698AFF6DFAF840C04BF5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFD2DE27CAD51334806C0B4C7EE5383B /* Foundation.framework in Frameworks */,
+				0D0F3A0713E062C0E9F4BFDEBEDEC8BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		534B5AF69E8F7A213D7E4CB9F74ACE6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9839D54A31E4E5CB8C6A74996BB21D40 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,6 +144,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2CCE36F72A793556C22FC2D5CD165FD3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E9F7995074DC416BCE535B78836AB2D7 /* ChieryCommonKit */,
+				C2FB197B08CA2617E5098AC99E034A22 /* ChieryJumpHandle */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		3210D8D8548E469CA6207E6B0A15F2F8 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -131,39 +170,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		66E6407FE13874C7AB9C5B6C900DA28E /* ChieryCommonKit */ = {
+		52A142223CCCFC323742E165AD255925 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5D4F3FF0DD145E77A2A8A83205B74DF4 /* ChieryCommonKit.h */,
-				1D89612731ED18DB890058012C5D2A6F /* MASCompositeConstraint.h */,
-				8A8DC0E32BC370DEEA8D81318BF908C3 /* MASCompositeConstraint.m */,
-				33F41A70DF772C2C50B998988861F996 /* MASConstraint.h */,
-				8096C1803745E7D2B7C6F917C966404C /* MASConstraint.m */,
-				CF43214DCECF143BFEF911F0D4CA050E /* MASConstraint+Private.h */,
-				5CF23248342C96E4EE035EF58FCAC59F /* MASConstraintMaker.h */,
-				FA4640A638304C6B1FCC0D988F66EE47 /* MASConstraintMaker.m */,
-				0514107B25890D773A12A4B25E64FA30 /* MASLayoutConstraint.h */,
-				00E7D61DA8817763AF38A8E6F7DC7606 /* MASLayoutConstraint.m */,
-				27D22BFCC85064FE69024138EC8B64C1 /* Masonry.h */,
-				086C7E6AE09FC0E1A09C3E8D1F4E10B9 /* MASUtilities.h */,
-				8C672BDDB1DDBC5D01A2F7C9D92558CC /* MASViewAttribute.h */,
-				9B8C50FE9E728A7E9A2879D81A715E2D /* MASViewAttribute.m */,
-				B3C146DC3CAAFA09FE28161BC2E0DD44 /* MASViewConstraint.h */,
-				115C44667F60EB84A852A843FC799C7D /* MASViewConstraint.m */,
-				5BDF0B4BC64A27EF9C62A40A8BC445DD /* NSArray+MASAdditions.h */,
-				B1FBBEBBFAC6FA33AAAE3FDC84D953EA /* NSArray+MASAdditions.m */,
-				CE0901EA4F372104DEF707AFB515520D /* NSArray+MASShorthandAdditions.h */,
-				24D1BAC0F8842B73EC6D2F1409B7ED52 /* NSLayoutConstraint+MASDebugAdditions.h */,
-				A2DE2300391518A79C0B9D085972F240 /* NSLayoutConstraint+MASDebugAdditions.m */,
-				158E356A4303B92111258B222968C8B7 /* View+MASAdditions.h */,
-				03CAC429F960D057F81549A680CEE558 /* View+MASAdditions.m */,
-				9DCACBCF70DC884B9B0D5D2C9BC22E5C /* View+MASShorthandAdditions.h */,
-				666166EB608A2613D39CA1606CD4FED8 /* ViewController+MASAdditions.h */,
-				B0CFD75EBF0D15C7B1BB4FF7D11A5784 /* ViewController+MASAdditions.m */,
-				D06150A8821D6545705366DB8EA5943F /* Support Files */,
+				B12B7C82501CC13EB66D00D96832B6AB /* ChieryCommonKit.xcconfig */,
+				C6E6A1BDA3251A06D644DF07624994CA /* ChieryCommonKit-dummy.m */,
+				B0A411747ACC4C75533656FC03BBEDE4 /* ChieryCommonKit-prefix.pch */,
 			);
-			name = ChieryCommonKit;
-			path = ChieryCommonKit;
+			name = "Support Files";
+			path = "../Target Support Files/ChieryCommonKit";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -171,38 +186,53 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				9DBA1A8B17E68336A855585473E96A80 /* Pods */,
-				A7C837C566F5DE7977C4059B64F88FC6 /* Products */,
+				2CCE36F72A793556C22FC2D5CD165FD3 /* Pods */,
+				8A7F251BE59D038856A551E7466C3234 /* Products */,
 				D1FF8E3F858A909F6CB65BBABD10D798 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		9DBA1A8B17E68336A855585473E96A80 /* Pods */ = {
+		8A7F251BE59D038856A551E7466C3234 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				66E6407FE13874C7AB9C5B6C900DA28E /* ChieryCommonKit */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		A7C837C566F5DE7977C4059B64F88FC6 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				2A9D346285D9FCA2F860E16FD5BBE49C /* libChieryCommonKit.a */,
-				44F739AC73666F7B522194F58924073A /* libPods-ChieryHomePage.a */,
+				44A8CE1DB58594F70553CB656643FDE0 /* libChieryCommonKit.a */,
+				7D4A9879A46DC9CBBF170A902A538C7F /* libChieryJumpHandle.a */,
+				27C869C840078D8BF7F97ED0A6E872AF /* libPods-ChieryHomePage.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D06150A8821D6545705366DB8EA5943F /* Support Files */ = {
+		9DED3211ECA075A134BB7896E6A5B21D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				10A38F8C533F68F3AE95E143E53E6DD4 /* ChieryCommonKit.xcconfig */,
-				A9107DAA04A56006A904BAAA3F74AF7E /* ChieryCommonKit-dummy.m */,
-				C751A9323923D8C5EA0764212E2C9821 /* ChieryCommonKit-prefix.pch */,
+				34DE9C4445B285C178FDF3C52E25C9DA /* jumpMap.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B53C162ACD218B26E509752F18C71EA8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				855939D2415DD4D38C76F3F731BC11B6 /* ChieryJumpHandle.xcconfig */,
+				96D2A8E2C25D60AFF39B424C80F0EBAC /* ChieryJumpHandle-dummy.m */,
+				0AADEC004F4F9347A7871E8C1DDC211F /* ChieryJumpHandle-prefix.pch */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/ChieryCommonKit";
+			path = "../Target Support Files/ChieryJumpHandle";
+			sourceTree = "<group>";
+		};
+		C2FB197B08CA2617E5098AC99E034A22 /* ChieryJumpHandle */ = {
+			isa = PBXGroup;
+			children = (
+				5107D19DF34BD928DF35011E833DAB51 /* ChieryJumpHandle.h */,
+				D52BB46D5080173D1E62899D431344CA /* ChieryJumpHandle.m */,
+				994BFDA7B45CFC477980978E80E0DC06 /* ChieryJumpHandlePrt.h */,
+				197DA1597FBBAF18A9A99086ADAC6CDA /* ChieryJumpHandleResponsePrt.h */,
+				9DED3211ECA075A134BB7896E6A5B21D /* Resources */,
+				B53C162ACD218B26E509752F18C71EA8 /* Support Files */,
+			);
+			name = ChieryJumpHandle;
+			path = ChieryJumpHandle;
 			sourceTree = "<group>";
 		};
 		D1FF8E3F858A909F6CB65BBABD10D798 /* Targets Support Files */ = {
@@ -211,6 +241,41 @@
 				FB32D14480D66AC695807A0BAB4F85D6 /* Pods-ChieryHomePage */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E9F7995074DC416BCE535B78836AB2D7 /* ChieryCommonKit */ = {
+			isa = PBXGroup;
+			children = (
+				F212A5DF2D2C16D4D33DC43FE7039858 /* ChieryCommonKit.h */,
+				4E116C3F823E226DDB85A60F12528539 /* MASCompositeConstraint.h */,
+				AECBE81D2CCADEBC5EF9F5E0C3A060F6 /* MASCompositeConstraint.m */,
+				A2F6D4823CBC0616B0767632520DCBBE /* MASConstraint.h */,
+				D6CE5F38631054142550909977EA2BB4 /* MASConstraint.m */,
+				7DFBF7E9DECA1002653C707CFE619B10 /* MASConstraint+Private.h */,
+				AA96352675E380B1840FA0B4E190E07E /* MASConstraintMaker.h */,
+				B09DED5136F702F884ADD2069718F267 /* MASConstraintMaker.m */,
+				AD64B573D7CE14E9C6F98CA2BD123A6C /* MASLayoutConstraint.h */,
+				38EA163B06346AF9B41A727DA2B7F89B /* MASLayoutConstraint.m */,
+				C289E03E30D4794D7B39E1EB47DA977D /* Masonry.h */,
+				99AA143F6AD22B1CB91587279244F342 /* MASUtilities.h */,
+				E926417FFFDE9C4A4EA0EC7CF3B24349 /* MASViewAttribute.h */,
+				297DE4CC008CA75E08D8905BD8B1D703 /* MASViewAttribute.m */,
+				DB501778FD00DEDA11AB9CE4AA8C6C17 /* MASViewConstraint.h */,
+				B8B34BE9B7A0CF84EBCDF78D5500D4B4 /* MASViewConstraint.m */,
+				2DFCCA666BDDA6DB3DB4F47DDC3D2606 /* NSArray+MASAdditions.h */,
+				F674E6F4B66BB4DBB401F0EA844BE81C /* NSArray+MASAdditions.m */,
+				B2160B5DC66640C84C6A0E7137E53FAB /* NSArray+MASShorthandAdditions.h */,
+				B7B97B6C5D4AD7647B15640397DEEB0F /* NSLayoutConstraint+MASDebugAdditions.h */,
+				249A1439E35C688CEF936B029FAF712A /* NSLayoutConstraint+MASDebugAdditions.m */,
+				ABDCFD288AEBED3588F4AA4DD3B7B53A /* View+MASAdditions.h */,
+				D46939919971EEEE8E8F43A98B19017B /* View+MASAdditions.m */,
+				197EE54F683E4733498653C78EA38471 /* View+MASShorthandAdditions.h */,
+				FD76A9D898229836E124D1E07047728F /* ViewController+MASAdditions.h */,
+				117649AB80B984101D7B855CBAC518C1 /* ViewController+MASAdditions.m */,
+				52A142223CCCFC323742E165AD255925 /* Support Files */,
+			);
+			name = ChieryCommonKit;
+			path = ChieryCommonKit;
 			sourceTree = "<group>";
 		};
 		FB32D14480D66AC695807A0BAB4F85D6 /* Pods-ChieryHomePage */ = {
@@ -230,6 +295,16 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		311060203B16B3256C291C11CFA0C601 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5AC0621F0E93EF9742CCA3A67142CF5 /* ChieryJumpHandle.h in Headers */,
+				2405C314A4FC5EE3101DF28C4171BD9B /* ChieryJumpHandlePrt.h in Headers */,
+				0F98C7D11D5DB2D6A4F98ECA4957ACC7 /* ChieryJumpHandleResponsePrt.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ECB5EA326C4D6CD4362872558CDBA62E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -270,24 +345,42 @@
 			);
 			name = ChieryCommonKit;
 			productName = ChieryCommonKit;
-			productReference = 2A9D346285D9FCA2F860E16FD5BBE49C /* libChieryCommonKit.a */;
+			productReference = 44A8CE1DB58594F70553CB656643FDE0 /* libChieryCommonKit.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		4A6D7B8989C414506A5A2CFE44055971 /* Pods-ChieryHomePage */ = {
+		78E126AE4386B7CE19CE592D6620B50D /* Pods-ChieryHomePage */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1203D5983DD14F6ADFCC707A1E4D4E68 /* Build configuration list for PBXNativeTarget "Pods-ChieryHomePage" */;
+			buildConfigurationList = E37A9B1D8E47E043BDAF783495E1A09D /* Build configuration list for PBXNativeTarget "Pods-ChieryHomePage" */;
 			buildPhases = (
-				B8EEC640CE8D3875454A672EB29374B1 /* Sources */,
-				7E64FEAAAA23523F02B9E6E4144E1F11 /* Frameworks */,
+				2466E9539C907EAD0A7ED227350371EC /* Sources */,
+				534B5AF69E8F7A213D7E4CB9F74ACE6C /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				98B7575E53CE0F61E6E56E8548A67CC9 /* PBXTargetDependency */,
+				2A120DB184A7856EE6A95B84918FEF53 /* PBXTargetDependency */,
+				DA9AFAC4C1C9C2103ADF5F34A944809B /* PBXTargetDependency */,
 			);
 			name = "Pods-ChieryHomePage";
 			productName = "Pods-ChieryHomePage";
-			productReference = 44F739AC73666F7B522194F58924073A /* libPods-ChieryHomePage.a */;
+			productReference = 27C869C840078D8BF7F97ED0A6E872AF /* libPods-ChieryHomePage.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D64DD468C0E0FF1EE3BF3C7A770CCD89 /* ChieryJumpHandle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28F5C2C6F7861BE10E89800B6E38E51B /* Build configuration list for PBXNativeTarget "ChieryJumpHandle" */;
+			buildPhases = (
+				656458883E14E8848016ACBCC8ED7A6F /* Sources */,
+				4C0AF86B9296698AFF6DFAF840C04BF5 /* Frameworks */,
+				311060203B16B3256C291C11CFA0C601 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChieryJumpHandle;
+			productName = ChieryJumpHandle;
+			productReference = 7D4A9879A46DC9CBBF170A902A538C7F /* libChieryJumpHandle.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -307,17 +400,26 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = A7C837C566F5DE7977C4059B64F88FC6 /* Products */;
+			productRefGroup = 8A7F251BE59D038856A551E7466C3234 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				2B69B52E463819BB0A45FEDF6204D5FE /* ChieryCommonKit */,
-				4A6D7B8989C414506A5A2CFE44055971 /* Pods-ChieryHomePage */,
+				D64DD468C0E0FF1EE3BF3C7A770CCD89 /* ChieryJumpHandle */,
+				78E126AE4386B7CE19CE592D6620B50D /* Pods-ChieryHomePage */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2466E9539C907EAD0A7ED227350371EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				522D75C583589DE863482EBC7DAF7871 /* Pods-ChieryHomePage-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		529388E4E6685C33275BD6CF60DFCF99 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -336,49 +438,79 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B8EEC640CE8D3875454A672EB29374B1 /* Sources */ = {
+		656458883E14E8848016ACBCC8ED7A6F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26DA11EFBFBEEE6FC223BE39F6BD26B7 /* Pods-ChieryHomePage-dummy.m in Sources */,
+				62B86944565D80DFF6AD418B29B2ED07 /* ChieryJumpHandle-dummy.m in Sources */,
+				C2417CF62A3A831570347F15E0846552 /* ChieryJumpHandle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		98B7575E53CE0F61E6E56E8548A67CC9 /* PBXTargetDependency */ = {
+		2A120DB184A7856EE6A95B84918FEF53 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ChieryCommonKit;
 			target = 2B69B52E463819BB0A45FEDF6204D5FE /* ChieryCommonKit */;
-			targetProxy = 578B1E3D088F4AAE57A83A7A4833D991 /* PBXContainerItemProxy */;
+			targetProxy = 521F61376BCA5F51C5BA0A2F4A6A39E1 /* PBXContainerItemProxy */;
+		};
+		DA9AFAC4C1C9C2103ADF5F34A944809B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ChieryJumpHandle;
+			target = D64DD468C0E0FF1EE3BF3C7A770CCD89 /* ChieryJumpHandle */;
+			targetProxy = 2DB0EDB94760DA11CB214DCDFF0CFC5B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0506B87BFCF531D96F4E4663B00A9917 /* Debug */ = {
+		274A63CF7D04D854C220DB60749FDACC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 028949B502F50FDF2B824F3965537FE8 /* Pods-ChieryHomePage.debug.xcconfig */;
+			baseConfigurationReference = 855939D2415DD4D38C76F3F731BC11B6 /* ChieryJumpHandle.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ChieryJumpHandle/ChieryJumpHandle-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		642615740DA3480C023D5688CD1A2E3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 855939D2415DD4D38C76F3F731BC11B6 /* ChieryJumpHandle.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ChieryJumpHandle/ChieryJumpHandle-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		92C986C2B82B8A44256FE345C4037A0A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 10A38F8C533F68F3AE95E143E53E6DD4 /* ChieryCommonKit.xcconfig */;
+			baseConfigurationReference = B12B7C82501CC13EB66D00D96832B6AB /* ChieryCommonKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -455,7 +587,7 @@
 		};
 		C07BF75600B89A99152002402655FA12 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 10A38F8C533F68F3AE95E143E53E6DD4 /* ChieryCommonKit.xcconfig */;
+			baseConfigurationReference = B12B7C82501CC13EB66D00D96832B6AB /* ChieryCommonKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -474,7 +606,7 @@
 			};
 			name = Debug;
 		};
-		C82ADD1697CD6494AB7FAB8634C5BFC0 /* Release */ = {
+		C2047DB3A589AA2CDB4D09CF1B7E0806 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 35679E62447E39C2A2EAC836466B9BEE /* Pods-ChieryHomePage.release.xcconfig */;
 			buildSettings = {
@@ -555,14 +687,34 @@
 			};
 			name = Debug;
 		};
+		FFBC5B874E9FA9EC4A827FC635162EF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 028949B502F50FDF2B824F3965537FE8 /* Pods-ChieryHomePage.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1203D5983DD14F6ADFCC707A1E4D4E68 /* Build configuration list for PBXNativeTarget "Pods-ChieryHomePage" */ = {
+		28F5C2C6F7861BE10E89800B6E38E51B /* Build configuration list for PBXNativeTarget "ChieryJumpHandle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0506B87BFCF531D96F4E4663B00A9917 /* Debug */,
-				C82ADD1697CD6494AB7FAB8634C5BFC0 /* Release */,
+				642615740DA3480C023D5688CD1A2E3B /* Debug */,
+				274A63CF7D04D854C220DB60749FDACC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -581,6 +733,15 @@
 			buildConfigurations = (
 				C07BF75600B89A99152002402655FA12 /* Debug */,
 				92C986C2B82B8A44256FE345C4037A0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E37A9B1D8E47E043BDAF783495E1A09D /* Build configuration list for PBXNativeTarget "Pods-ChieryHomePage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFBC5B874E9FA9EC4A827FC635162EF8 /* Debug */,
+				C2047DB3A589AA2CDB4D09CF1B7E0806 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -8,6 +8,7 @@
 
 #import "ChieryHomePage.h"
 #import "ChieryCommonKit.h"
+#import "ChieryJumpHandle.h"
 
 @interface ChieryHomePage ()
 @property (nonatomic, strong) UIButton *business1Button;
@@ -34,15 +35,15 @@
     }];
     [self.business2Button mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.with.height.equalTo(@100);
-        make.left.equalTo(self.business1Button.mas_left).offset(20);
+        make.left.equalTo(self.business1Button.mas_right).offset(20);
     }];}
 
 - (void)business1Action {
-    
+    [ChieryJumpHandle jumpHandleOpenURL:[NSURL URLWithString:@"chieryiphone://business1?q=1"]];
 }
 
 - (void)business2Action {
-    
+    [ChieryJumpHandle jumpHandleOpenURL:[NSURL URLWithString:@"chieryiphone://business2?q=2"]];
 }
 
 - (UIButton *)business1Button {
