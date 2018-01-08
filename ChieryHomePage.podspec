@@ -39,8 +39,13 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT"
+  # s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  s.license      = { :type => 'MIT', :text => <<-LICENSE
+                    Copyright 2012
+                    Permission is granted to...
+                  LICENSE
+                   }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -80,7 +85,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/chieryd/ChieryHomePage", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/chieryd/ChieryHomePage.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -94,7 +99,7 @@ Pod::Spec.new do |s|
   s.source_files  = "ChieryHomePage.h", "ChieryHomePage/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 
-  s.public_header_files = "ChieryHomePage.h"
+  s.public_header_files = "ChieryHomePage.h", "ChieryHomePage/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
