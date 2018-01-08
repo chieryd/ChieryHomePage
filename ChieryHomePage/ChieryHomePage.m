@@ -7,6 +7,7 @@
 //
 
 #import "ChieryHomePage.h"
+#import "ChieryCommonKit.h"
 
 @interface ChieryHomePage ()
 @property (nonatomic, strong) UIButton *business1Button;
@@ -28,7 +29,13 @@
 
 - (void)layoutSubviews {
     // 这里开始布局
-}
+    [self.business1Button mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.left.with.height.equalTo(@100);
+    }];
+    [self.business2Button mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.with.height.equalTo(@100);
+        make.left.equalTo(self.business1Button.mas_left).offset(20);
+    }];}
 
 - (void)business1Action {
     
