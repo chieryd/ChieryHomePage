@@ -39,11 +39,11 @@
     }];}
 
 - (void)business1Action {
-    [ChieryJumpHandle jumpHandleOpenURL:[NSURL URLWithString:@"chieryiphone://business1?q=1"]];
+    [ChieryJumpHandle jumpHandleOpenURL:[NSURL URLWithString:@"chieryiphone://business1/homePage?q=1"]];
 }
 
 - (void)business2Action {
-    [ChieryJumpHandle jumpHandleOpenURL:[NSURL URLWithString:@"chieryiphone://business2?q=2"]];
+    [ChieryJumpHandle jumpHandleOpenURL:[NSURL URLWithString:@"chieryiphone://business2/homePage?q=2"]];
 }
 
 - (UIButton *)business1Button {
