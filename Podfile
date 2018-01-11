@@ -10,3 +10,10 @@ target 'ChieryHomePage' do
 	pod 'ChieryJumpHandle'
 
 end
+
+target 'ChieryHomePage_a' do
+    
+    pod 'ChieryCommonKit'
+    pod 'ChieryJumpHandle'
+    
+end

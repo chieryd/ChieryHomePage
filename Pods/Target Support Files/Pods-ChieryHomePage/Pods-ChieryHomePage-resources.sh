@@ -84,9 +84,11 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_resource "${PODS_ROOT}/ChieryJumpHandle/ChieryJumpHandle/Info.plist"
   install_resource "${PODS_ROOT}/ChieryJumpHandle/ChieryJumpHandle/jumpMap.plist"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_resource "${PODS_ROOT}/ChieryJumpHandle/ChieryJumpHandle/Info.plist"
   install_resource "${PODS_ROOT}/ChieryJumpHandle/ChieryJumpHandle/jumpMap.plist"
 fi
 
