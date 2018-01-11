@@ -1,13 +1,13 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## ChieryCommonKit
+## ChieryCommonKitLib
 
 Copyright 2012
 Permission is granted to...
 
 
-## ChieryJumpHandle
+## ChieryJumpHandleLib
 
 Copyright 2012
 Permission is granted to...

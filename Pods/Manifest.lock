@@ -1,15 +1,15 @@
 PODS:
-  - ChieryCommonKit (0.0.2)
-  - ChieryJumpHandle (0.0.9)
+  - ChieryCommonKitLib (0.0.1)
+  - ChieryJumpHandleLib (0.0.3)
 
 DEPENDENCIES:
-  - ChieryCommonKit
-  - ChieryJumpHandle
+  - ChieryCommonKitLib
+  - ChieryJumpHandleLib
 
 SPEC CHECKSUMS:
-  ChieryCommonKit: 1e79a78f10733d69b2da9f7e58fbe195c3580a58
-  ChieryJumpHandle: 59238ad00a2558b2495bef4e70435e729458ab86
+  ChieryCommonKitLib: 917e02825334ae21bf3a46f82a9a83a11c5a1e69
+  ChieryJumpHandleLib: e244132e042132e992af6c4963a8a55e2b7fcc65
 
-PODFILE CHECKSUM: fc86ed659175503d8f5c65631f80ba729eb13404
+PODFILE CHECKSUM: d299c5644f1f91d4e06941fd785c0e13ca54776a
 
 COCOAPODS: 1.3.1

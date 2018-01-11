@@ -7,169 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00778237BC00FC5F04A9C9619EBBE750 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E116C3F823E226DDB85A60F12528539 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0BA08D237291963BA9931D06BD759496 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = B09DED5136F702F884ADD2069718F267 /* MASConstraintMaker.m */; };
-		0D0F3A0713E062C0E9F4BFDEBEDEC8BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C485B96747F6C8B95ED05103FAFB011 /* Foundation.framework */; };
-		17B0C98E5051CC9D142508A4FE7662E8 /* ChieryCommonKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F212A5DF2D2C16D4D33DC43FE7039858 /* ChieryCommonKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1BE05DAB7BECA711FF44B57D3C3E3497 /* ChieryJumpHandleResponsePrt.h in Headers */ = {isa = PBXBuildFile; fileRef = 18743B9811D9CB15439AE8EDF3D10964 /* ChieryJumpHandleResponsePrt.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1DBFC3C7E61A64A456FEFC4F99119EC4 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DFCCA666BDDA6DB3DB4F47DDC3D2606 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		22961DDA0B97186F32B7FA4B19541807 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D46939919971EEEE8E8F43A98B19017B /* View+MASAdditions.m */; };
-		2627786E54050BBD0B1539F12E392B52 /* ChieryCommonKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C6E6A1BDA3251A06D644DF07624994CA /* ChieryCommonKit-dummy.m */; };
-		2A6306ECBD62DB2C74D8AC44C3A534C1 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = AA96352675E380B1840FA0B4E190E07E /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2D90E3198BCD082433B2C68824EC5785 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 117649AB80B984101D7B855CBAC518C1 /* ViewController+MASAdditions.m */; };
-		3F1426723231AFD9735C5882A40C424C /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = C289E03E30D4794D7B39E1EB47DA977D /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		417A5DAA7A466DE04A867AB27300458D /* Pods-ChieryHomePage_a-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CA430D3E3467D1102FCAC96A3C4879 /* Pods-ChieryHomePage_a-dummy.m */; };
-		4B11C27BFB8B340372634CA9F148A768 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = A2F6D4823CBC0616B0767632520DCBBE /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		522D75C583589DE863482EBC7DAF7871 /* Pods-ChieryHomePage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1FF653C3E4B4F4E92D5F7E8DA5D331 /* Pods-ChieryHomePage-dummy.m */; };
-		529767E568A5D9E91ADF64906CDA77B3 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F674E6F4B66BB4DBB401F0EA844BE81C /* NSArray+MASAdditions.m */; };
-		59D178AEB1ADDBBFFA2784F62FEE05DF /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = E926417FFFDE9C4A4EA0EC7CF3B24349 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		62B86944565D80DFF6AD418B29B2ED07 /* ChieryJumpHandle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A221206E3D12225E2D03ED55C6D8F6 /* ChieryJumpHandle-dummy.m */; };
-		6D8D022A846225E2097724AE87E6DD51 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DFBF7E9DECA1002653C707CFE619B10 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		72ECBA357347FAFB2A55A9E634FB6E1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C485B96747F6C8B95ED05103FAFB011 /* Foundation.framework */; };
-		89C9789A08EC891582F347622F545E79 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FD76A9D898229836E124D1E07047728F /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		946A644C6FF2B1C6BAA4DEAA460DB846 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = B2160B5DC66640C84C6A0E7137E53FAB /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9839D54A31E4E5CB8C6A74996BB21D40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C485B96747F6C8B95ED05103FAFB011 /* Foundation.framework */; };
-		9D353464B60FD1FF868FBA1F34D721CC /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = B7B97B6C5D4AD7647B15640397DEEB0F /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A00E29CDAC8F565B20D802DF9E965043 /* ChieryJumpHandlePrt.h in Headers */ = {isa = PBXBuildFile; fileRef = DE7A4187BC99FAC8FB4965A746F9A541 /* ChieryJumpHandlePrt.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A2A2F684BE8ADAFEA5C649C427C4DCC2 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA163B06346AF9B41A727DA2B7F89B /* MASLayoutConstraint.m */; };
-		A9FF4D6EAAF81A5C6BD6A9DFC2A5C40C /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = ABDCFD288AEBED3588F4AA4DD3B7B53A /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B6E785FDE6955D4B1B55DAF0B11D86FA /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = AD64B573D7CE14E9C6F98CA2BD123A6C /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B7A7E020897BCEE05D59B148D5A7DC2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C485B96747F6C8B95ED05103FAFB011 /* Foundation.framework */; };
-		C2417CF62A3A831570347F15E0846552 /* ChieryJumpHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = EEAE316A00CECDB909E93162445932FB /* ChieryJumpHandle.m */; };
-		CA63CDE341801E8ACFD7475FA738A967 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B34BE9B7A0CF84EBCDF78D5500D4B4 /* MASViewConstraint.m */; };
-		CDBAE3DD11962AF80E153A90DAEF4661 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 249A1439E35C688CEF936B029FAF712A /* NSLayoutConstraint+MASDebugAdditions.m */; };
-		D7B0CF5FB6C4F66FC85E98AE1BDE7C97 /* ChieryJumpHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = B479F6D74EEDC7A3CC6D3091AEF42FDB /* ChieryJumpHandle.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DA8B3D96B32BFC0BE880E5ACF0E2619C /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 99AA143F6AD22B1CB91587279244F342 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DBF38ACD543B2B72AB6AB72C3AE2C864 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = AECBE81D2CCADEBC5EF9F5E0C3A060F6 /* MASCompositeConstraint.m */; };
-		E6D2CBAD4945B5748C5B57A2905ED4C0 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CE5F38631054142550909977EA2BB4 /* MASConstraint.m */; };
-		F0FC6A16102C34D6B3A9257C8C58A00E /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 197EE54F683E4733498653C78EA38471 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F8612E4879438187BDAC599025982CA7 /* UIkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0F36533BFF5683AC7363137C4B36FB6 /* UIkit.framework */; };
-		FA2043FC423DBB987DDF7E680763C9F9 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = DB501778FD00DEDA11AB9CE4AA8C6C17 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FCD80D96327F0441100FFC79B4F9F000 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 297DE4CC008CA75E08D8905BD8B1D703 /* MASViewAttribute.m */; };
+		10B494D0296A01A9D7DB8C4E3CAB3359 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		1CD6389330B6C02F9B94960C42AE8D15 /* Pods-ChieryHomePage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1FF653C3E4B4F4E92D5F7E8DA5D331 /* Pods-ChieryHomePage-dummy.m */; };
+		5343EBD6201FEF2E3A198808EAE4EC90 /* Pods-ChieryHomePage_a-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CA430D3E3467D1102FCAC96A3C4879 /* Pods-ChieryHomePage_a-dummy.m */; };
+		E53880B3A3391759BAE8A2C523EA0176 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		2DB0EDB94760DA11CB214DCDFF0CFC5B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D64DD468C0E0FF1EE3BF3C7A770CCD89;
-			remoteInfo = ChieryJumpHandle;
-		};
-		44154179202190EDA424A542E89E2A3E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2B69B52E463819BB0A45FEDF6204D5FE;
-			remoteInfo = ChieryCommonKit;
-		};
-		521F61376BCA5F51C5BA0A2F4A6A39E1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2B69B52E463819BB0A45FEDF6204D5FE;
-			remoteInfo = ChieryCommonKit;
-		};
-		DF7D331575E32902639E34C5ECEA319F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D64DD468C0E0FF1EE3BF3C7A770CCD89;
-			remoteInfo = ChieryJumpHandle;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		007071FDDDC2074F22337609DA9206B9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = ChieryJumpHandle/Info.plist; sourceTree = "<group>"; };
 		07445909BC33803A237D11684EEBB5A1 /* Pods-ChieryHomePage_a-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChieryHomePage_a-acknowledgements.plist"; sourceTree = "<group>"; };
-		082085A69DB0D64AADB92243FE5891EA /* ChieryJumpHandle.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ChieryJumpHandle.xcconfig; sourceTree = "<group>"; };
-		117649AB80B984101D7B855CBAC518C1 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "ChieryCommonKit/3rd/Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
-		18743B9811D9CB15439AE8EDF3D10964 /* ChieryJumpHandleResponsePrt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChieryJumpHandleResponsePrt.h; path = ChieryJumpHandle/ChieryJumpHandleResponsePrt.h; sourceTree = "<group>"; };
-		197EE54F683E4733498653C78EA38471 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "ChieryCommonKit/3rd/Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		249A1439E35C688CEF936B029FAF712A /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "ChieryCommonKit/3rd/Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
-		297DE4CC008CA75E08D8905BD8B1D703 /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = ChieryCommonKit/3rd/Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		16FCF1DE8439E9C7227DCBAF7F3F6771 /* ChieryJumpHandleResponsePrt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChieryJumpHandleResponsePrt.h; path = library/ChieryJumpHandleResponsePrt.h; sourceTree = "<group>"; };
 		2A31B9A4A654C6078B0CA6779254FE0A /* Pods-ChieryHomePage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChieryHomePage.release.xcconfig"; sourceTree = "<group>"; };
-		2DFCCA666BDDA6DB3DB4F47DDC3D2606 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "ChieryCommonKit/3rd/Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
-		38EA163B06346AF9B41A727DA2B7F89B /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = ChieryCommonKit/3rd/Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
-		446FBEE95C3A17DC6E8CFE01A74E3404 /* libPods-ChieryHomePage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ChieryHomePage.a"; path = "libPods-ChieryHomePage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E116C3F823E226DDB85A60F12528539 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = ChieryCommonKit/3rd/Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		3A5470F943A8924FAFF0B4F81B36A4C4 /* ChieryCommonKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChieryCommonKit.h; path = library/ChieryCommonKit.h; sourceTree = "<group>"; };
+		4C57A90A6CDCE231E4484FB941A97269 /* libPods-ChieryHomePage_a.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ChieryHomePage_a.a"; path = "libPods-ChieryHomePage_a.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		573B151CD39C476773F3CE4C1592BCDB /* Pods-ChieryHomePage_a.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChieryHomePage_a.release.xcconfig"; sourceTree = "<group>"; };
 		57594EB9670A2CFEB5EB7AEF440E2166 /* Pods-ChieryHomePage-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChieryHomePage-resources.sh"; sourceTree = "<group>"; };
+		57AFA33B67579A497AC43B1158C0E9B8 /* libChieryJumpHandle_a.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libChieryJumpHandle_a.a; path = library/libChieryJumpHandle_a.a; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		66C77F52E7EE234DF0A9EB3AAC18C1BE /* Pods-ChieryHomePage-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChieryHomePage-acknowledgements.plist"; sourceTree = "<group>"; };
+		6884B389133B47B3D4FD6BA2505FE4C3 /* libChieryCommonKit_a.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libChieryCommonKit_a.a; path = library/libChieryCommonKit_a.a; sourceTree = "<group>"; };
 		6FDF73E6FDD91BDFEDF3F6A4FCE4D383 /* Pods-ChieryHomePage-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChieryHomePage-acknowledgements.markdown"; sourceTree = "<group>"; };
 		73FE6D47BA22DD64977C0ADF1699644C /* Pods-ChieryHomePage_a-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChieryHomePage_a-resources.sh"; sourceTree = "<group>"; };
-		77A221206E3D12225E2D03ED55C6D8F6 /* ChieryJumpHandle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ChieryJumpHandle-dummy.m"; sourceTree = "<group>"; };
-		7C485B96747F6C8B95ED05103FAFB011 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7DFBF7E9DECA1002653C707CFE619B10 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "ChieryCommonKit/3rd/Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
 		8006212C53143FB40E20EAC876995060 /* Pods-ChieryHomePage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChieryHomePage.debug.xcconfig"; sourceTree = "<group>"; };
 		80CA430D3E3467D1102FCAC96A3C4879 /* Pods-ChieryHomePage_a-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChieryHomePage_a-dummy.m"; sourceTree = "<group>"; };
-		854CCDCB56DBE26365C6B66A4BFF296E /* libPods-ChieryHomePage_a.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ChieryHomePage_a.a"; path = "libPods-ChieryHomePage_a.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		99AA143F6AD22B1CB91587279244F342 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = ChieryCommonKit/3rd/Masonry/MASUtilities.h; sourceTree = "<group>"; };
-		A2F6D4823CBC0616B0767632520DCBBE /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = ChieryCommonKit/3rd/Masonry/MASConstraint.h; sourceTree = "<group>"; };
-		AA96352675E380B1840FA0B4E190E07E /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = ChieryCommonKit/3rd/Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
-		ABDCFD288AEBED3588F4AA4DD3B7B53A /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "ChieryCommonKit/3rd/Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
-		AD64B573D7CE14E9C6F98CA2BD123A6C /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = ChieryCommonKit/3rd/Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
-		AECBE81D2CCADEBC5EF9F5E0C3A060F6 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = ChieryCommonKit/3rd/Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
-		B09DED5136F702F884ADD2069718F267 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = ChieryCommonKit/3rd/Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
-		B0A411747ACC4C75533656FC03BBEDE4 /* ChieryCommonKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChieryCommonKit-prefix.pch"; sourceTree = "<group>"; };
-		B12B7C82501CC13EB66D00D96832B6AB /* ChieryCommonKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ChieryCommonKit.xcconfig; sourceTree = "<group>"; };
-		B2160B5DC66640C84C6A0E7137E53FAB /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "ChieryCommonKit/3rd/Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		B479F6D74EEDC7A3CC6D3091AEF42FDB /* ChieryJumpHandle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChieryJumpHandle.h; path = ChieryJumpHandle/ChieryJumpHandle.h; sourceTree = "<group>"; };
-		B7B97B6C5D4AD7647B15640397DEEB0F /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "ChieryCommonKit/3rd/Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
-		B8B34BE9B7A0CF84EBCDF78D5500D4B4 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = ChieryCommonKit/3rd/Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
-		BF1CE69FD9E26BB0158CD50DEEB6BF42 /* libChieryCommonKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libChieryCommonKit.a; path = libChieryCommonKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE72EE3B9E14B3544FB4557C6063BC8C /* ChieryJumpHandlePrt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChieryJumpHandlePrt.h; path = library/ChieryJumpHandlePrt.h; sourceTree = "<group>"; };
 		C08AB1D5B1DFE0AC5ACB3A71FEA81CAD /* Pods-ChieryHomePage_a-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChieryHomePage_a-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C289E03E30D4794D7B39E1EB47DA977D /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = ChieryCommonKit/3rd/Masonry/Masonry.h; sourceTree = "<group>"; };
 		C3F5AFCC5301797DE7BC2C9047380DC0 /* Pods-ChieryHomePage_a.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChieryHomePage_a.debug.xcconfig"; sourceTree = "<group>"; };
-		C6E6A1BDA3251A06D644DF07624994CA /* ChieryCommonKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ChieryCommonKit-dummy.m"; sourceTree = "<group>"; };
-		CF299CC3F98C325B580972D53EA26C25 /* libChieryJumpHandle.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libChieryJumpHandle.a; path = libChieryJumpHandle.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0F36533BFF5683AC7363137C4B36FB6 /* UIkit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIkit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIkit.framework; sourceTree = DEVELOPER_DIR; };
-		D46939919971EEEE8E8F43A98B19017B /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "ChieryCommonKit/3rd/Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
-		D6262D827A5C3D0C7206BB0E989B299B /* ChieryJumpHandle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChieryJumpHandle-prefix.pch"; sourceTree = "<group>"; };
-		D6CE5F38631054142550909977EA2BB4 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = ChieryCommonKit/3rd/Masonry/MASConstraint.m; sourceTree = "<group>"; };
-		DB501778FD00DEDA11AB9CE4AA8C6C17 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = ChieryCommonKit/3rd/Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
-		DE7A4187BC99FAC8FB4965A746F9A541 /* ChieryJumpHandlePrt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChieryJumpHandlePrt.h; path = ChieryJumpHandle/ChieryJumpHandlePrt.h; sourceTree = "<group>"; };
-		E4C888E9890E11D878E28DE69BB55EA1 /* jumpMap.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = jumpMap.plist; path = ChieryJumpHandle/jumpMap.plist; sourceTree = "<group>"; };
-		E926417FFFDE9C4A4EA0EC7CF3B24349 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = ChieryCommonKit/3rd/Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
-		EEAE316A00CECDB909E93162445932FB /* ChieryJumpHandle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ChieryJumpHandle.m; path = ChieryJumpHandle/ChieryJumpHandle.m; sourceTree = "<group>"; };
-		F212A5DF2D2C16D4D33DC43FE7039858 /* ChieryCommonKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChieryCommonKit.h; path = ChieryCommonKit/ChieryCommonKit.h; sourceTree = "<group>"; };
-		F674E6F4B66BB4DBB401F0EA844BE81C /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "ChieryCommonKit/3rd/Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		C5ABBF35F62E91917FD49887748C13CD /* libPods-ChieryHomePage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ChieryHomePage.a"; path = "libPods-ChieryHomePage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9D0C30A4384A2C78799DBDADE8ADB33 /* ChieryJumpHandle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChieryJumpHandle.h; path = library/ChieryJumpHandle.h; sourceTree = "<group>"; };
 		FA1FF653C3E4B4F4E92D5F7E8DA5D331 /* Pods-ChieryHomePage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChieryHomePage-dummy.m"; sourceTree = "<group>"; };
-		FD76A9D898229836E124D1E07047728F /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "ChieryCommonKit/3rd/Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4C0AF86B9296698AFF6DFAF840C04BF5 /* Frameworks */ = {
+		0163D8389838EA3A655257698A91E457 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D0F3A0713E062C0E9F4BFDEBEDEC8BC /* Foundation.framework in Frameworks */,
+				E53880B3A3391759BAE8A2C523EA0176 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		534B5AF69E8F7A213D7E4CB9F74ACE6C /* Frameworks */ = {
+		82937095B40C41AF4A835005112E5E76 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9839D54A31E4E5CB8C6A74996BB21D40 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6FAF7BBC63614842C7FF2DF8B1A715B6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B7A7E020897BCEE05D59B148D5A7DC2B /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8F06C04D8D56134C21BAE50688E0D8AF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				72ECBA357347FAFB2A55A9E634FB6E1A /* Foundation.framework in Frameworks */,
-				F8612E4879438187BDAC599025982CA7 /* UIkit.framework in Frameworks */,
+				10B494D0296A01A9D7DB8C4E3CAB3359 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,88 +67,51 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		0BE9F174EE5EC2DBF12A9B6FBEB9195E /* Products */ = {
+		20FDF1C098F46F6702BD734D006C61E5 /* ChieryJumpHandleLib */ = {
 			isa = PBXGroup;
 			children = (
-				BF1CE69FD9E26BB0158CD50DEEB6BF42 /* libChieryCommonKit.a */,
-				CF299CC3F98C325B580972D53EA26C25 /* libChieryJumpHandle.a */,
-				446FBEE95C3A17DC6E8CFE01A74E3404 /* libPods-ChieryHomePage.a */,
-				854CCDCB56DBE26365C6B66A4BFF296E /* libPods-ChieryHomePage_a.a */,
+				BA67BB43F47016774EE2AAB928FC9D03 /* Frameworks */,
+				E32229AEDC988C6EA4DC878C31A5463C /* Resources */,
 			);
-			name = Products;
+			name = ChieryJumpHandleLib;
+			path = ChieryJumpHandleLib;
 			sourceTree = "<group>";
 		};
-		2CCE36F72A793556C22FC2D5CD165FD3 /* Pods */ = {
+		4A27672CC383D5F85DA1205120F1A39A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E9F7995074DC416BCE535B78836AB2D7 /* ChieryCommonKit */,
-				8548E87AAEF9D2FE1C195EF1A317A3CD /* ChieryJumpHandle */,
+				A7E13271548640A7716165975693492A /* ChieryCommonKitLib */,
+				20FDF1C098F46F6702BD734D006C61E5 /* ChieryJumpHandleLib */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		3210D8D8548E469CA6207E6B0A15F2F8 /* iOS */ = {
+		4F607FD4BD23A3E9DE40869D2838FA40 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7C485B96747F6C8B95ED05103FAFB011 /* Foundation.framework */,
-				D0F36533BFF5683AC7363137C4B36FB6 /* UIkit.framework */,
+				C5ABBF35F62E91917FD49887748C13CD /* libPods-ChieryHomePage.a */,
+				4C57A90A6CDCE231E4484FB941A97269 /* libPods-ChieryHomePage_a.a */,
 			);
-			name = iOS;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+		6264CDC0FAA6DF8C74D49AEF9B273471 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3210D8D8548E469CA6207E6B0A15F2F8 /* iOS */,
+				6884B389133B47B3D4FD6BA2505FE4C3 /* libChieryCommonKit_a.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		52A142223CCCFC323742E165AD255925 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B12B7C82501CC13EB66D00D96832B6AB /* ChieryCommonKit.xcconfig */,
-				C6E6A1BDA3251A06D644DF07624994CA /* ChieryCommonKit-dummy.m */,
-				B0A411747ACC4C75533656FC03BBEDE4 /* ChieryCommonKit-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/ChieryCommonKit";
-			sourceTree = "<group>";
-		};
-		5D8DDA879C52C32F7A619D203F58AE8D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				082085A69DB0D64AADB92243FE5891EA /* ChieryJumpHandle.xcconfig */,
-				77A221206E3D12225E2D03ED55C6D8F6 /* ChieryJumpHandle-dummy.m */,
-				D6262D827A5C3D0C7206BB0E989B299B /* ChieryJumpHandle-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/ChieryJumpHandle";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				2CCE36F72A793556C22FC2D5CD165FD3 /* Pods */,
-				0BE9F174EE5EC2DBF12A9B6FBEB9195E /* Products */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				4A27672CC383D5F85DA1205120F1A39A /* Pods */,
+				4F607FD4BD23A3E9DE40869D2838FA40 /* Products */,
 				07DA64396814D7CADBB840A8CD3C4F19 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		8548E87AAEF9D2FE1C195EF1A317A3CD /* ChieryJumpHandle */ = {
-			isa = PBXGroup;
-			children = (
-				B479F6D74EEDC7A3CC6D3091AEF42FDB /* ChieryJumpHandle.h */,
-				EEAE316A00CECDB909E93162445932FB /* ChieryJumpHandle.m */,
-				DE7A4187BC99FAC8FB4965A746F9A541 /* ChieryJumpHandlePrt.h */,
-				18743B9811D9CB15439AE8EDF3D10964 /* ChieryJumpHandleResponsePrt.h */,
-				E366BC1301FAF3DC071AC526DC7FF62F /* Resources */,
-				5D8DDA879C52C32F7A619D203F58AE8D /* Support Files */,
-			);
-			name = ChieryJumpHandle;
-			path = ChieryJumpHandle;
 			sourceTree = "<group>";
 		};
 		89FC5B8341D9F6C9FB6F36EB7FA11012 /* Pods-ChieryHomePage_a */ = {
@@ -283,48 +128,56 @@
 			path = "Target Support Files/Pods-ChieryHomePage_a";
 			sourceTree = "<group>";
 		};
-		E366BC1301FAF3DC071AC526DC7FF62F /* Resources */ = {
+		A7E13271548640A7716165975693492A /* ChieryCommonKitLib */ = {
 			isa = PBXGroup;
 			children = (
-				007071FDDDC2074F22337609DA9206B9 /* Info.plist */,
-				E4C888E9890E11D878E28DE69BB55EA1 /* jumpMap.plist */,
+				6264CDC0FAA6DF8C74D49AEF9B273471 /* Frameworks */,
+				E1ABBD5EFD0FB3498E7E92F20CC7629C /* Resources */,
+			);
+			name = ChieryCommonKitLib;
+			path = ChieryCommonKitLib;
+			sourceTree = "<group>";
+		};
+		BA67BB43F47016774EE2AAB928FC9D03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57AFA33B67579A497AC43B1158C0E9B8 /* libChieryJumpHandle_a.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E1ABBD5EFD0FB3498E7E92F20CC7629C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3A5470F943A8924FAFF0B4F81B36A4C4 /* ChieryCommonKit.h */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		E9F7995074DC416BCE535B78836AB2D7 /* ChieryCommonKit */ = {
+		E32229AEDC988C6EA4DC878C31A5463C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				F212A5DF2D2C16D4D33DC43FE7039858 /* ChieryCommonKit.h */,
-				4E116C3F823E226DDB85A60F12528539 /* MASCompositeConstraint.h */,
-				AECBE81D2CCADEBC5EF9F5E0C3A060F6 /* MASCompositeConstraint.m */,
-				A2F6D4823CBC0616B0767632520DCBBE /* MASConstraint.h */,
-				D6CE5F38631054142550909977EA2BB4 /* MASConstraint.m */,
-				7DFBF7E9DECA1002653C707CFE619B10 /* MASConstraint+Private.h */,
-				AA96352675E380B1840FA0B4E190E07E /* MASConstraintMaker.h */,
-				B09DED5136F702F884ADD2069718F267 /* MASConstraintMaker.m */,
-				AD64B573D7CE14E9C6F98CA2BD123A6C /* MASLayoutConstraint.h */,
-				38EA163B06346AF9B41A727DA2B7F89B /* MASLayoutConstraint.m */,
-				C289E03E30D4794D7B39E1EB47DA977D /* Masonry.h */,
-				99AA143F6AD22B1CB91587279244F342 /* MASUtilities.h */,
-				E926417FFFDE9C4A4EA0EC7CF3B24349 /* MASViewAttribute.h */,
-				297DE4CC008CA75E08D8905BD8B1D703 /* MASViewAttribute.m */,
-				DB501778FD00DEDA11AB9CE4AA8C6C17 /* MASViewConstraint.h */,
-				B8B34BE9B7A0CF84EBCDF78D5500D4B4 /* MASViewConstraint.m */,
-				2DFCCA666BDDA6DB3DB4F47DDC3D2606 /* NSArray+MASAdditions.h */,
-				F674E6F4B66BB4DBB401F0EA844BE81C /* NSArray+MASAdditions.m */,
-				B2160B5DC66640C84C6A0E7137E53FAB /* NSArray+MASShorthandAdditions.h */,
-				B7B97B6C5D4AD7647B15640397DEEB0F /* NSLayoutConstraint+MASDebugAdditions.h */,
-				249A1439E35C688CEF936B029FAF712A /* NSLayoutConstraint+MASDebugAdditions.m */,
-				ABDCFD288AEBED3588F4AA4DD3B7B53A /* View+MASAdditions.h */,
-				D46939919971EEEE8E8F43A98B19017B /* View+MASAdditions.m */,
-				197EE54F683E4733498653C78EA38471 /* View+MASShorthandAdditions.h */,
-				FD76A9D898229836E124D1E07047728F /* ViewController+MASAdditions.h */,
-				117649AB80B984101D7B855CBAC518C1 /* ViewController+MASAdditions.m */,
-				52A142223CCCFC323742E165AD255925 /* Support Files */,
+				C9D0C30A4384A2C78799DBDADE8ADB33 /* ChieryJumpHandle.h */,
+				BE72EE3B9E14B3544FB4557C6063BC8C /* ChieryJumpHandlePrt.h */,
+				16FCF1DE8439E9C7227DCBAF7F3F6771 /* ChieryJumpHandleResponsePrt.h */,
 			);
-			name = ChieryCommonKit;
-			path = ChieryCommonKit;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		F74A34D73692E1E821D470A83C89F527 /* Pods-ChieryHomePage */ = {
@@ -343,111 +196,37 @@
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		311060203B16B3256C291C11CFA0C601 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D7B0CF5FB6C4F66FC85E98AE1BDE7C97 /* ChieryJumpHandle.h in Headers */,
-				A00E29CDAC8F565B20D802DF9E965043 /* ChieryJumpHandlePrt.h in Headers */,
-				1BE05DAB7BECA711FF44B57D3C3E3497 /* ChieryJumpHandleResponsePrt.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ECB5EA326C4D6CD4362872558CDBA62E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				17B0C98E5051CC9D142508A4FE7662E8 /* ChieryCommonKit.h in Headers */,
-				00778237BC00FC5F04A9C9619EBBE750 /* MASCompositeConstraint.h in Headers */,
-				6D8D022A846225E2097724AE87E6DD51 /* MASConstraint+Private.h in Headers */,
-				4B11C27BFB8B340372634CA9F148A768 /* MASConstraint.h in Headers */,
-				2A6306ECBD62DB2C74D8AC44C3A534C1 /* MASConstraintMaker.h in Headers */,
-				B6E785FDE6955D4B1B55DAF0B11D86FA /* MASLayoutConstraint.h in Headers */,
-				3F1426723231AFD9735C5882A40C424C /* Masonry.h in Headers */,
-				DA8B3D96B32BFC0BE880E5ACF0E2619C /* MASUtilities.h in Headers */,
-				59D178AEB1ADDBBFFA2784F62FEE05DF /* MASViewAttribute.h in Headers */,
-				FA2043FC423DBB987DDF7E680763C9F9 /* MASViewConstraint.h in Headers */,
-				1DBFC3C7E61A64A456FEFC4F99119EC4 /* NSArray+MASAdditions.h in Headers */,
-				946A644C6FF2B1C6BAA4DEAA460DB846 /* NSArray+MASShorthandAdditions.h in Headers */,
-				9D353464B60FD1FF868FBA1F34D721CC /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
-				A9FF4D6EAAF81A5C6BD6A9DFC2A5C40C /* View+MASAdditions.h in Headers */,
-				F0FC6A16102C34D6B3A9257C8C58A00E /* View+MASShorthandAdditions.h in Headers */,
-				89C9789A08EC891582F347622F545E79 /* ViewController+MASAdditions.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		2B69B52E463819BB0A45FEDF6204D5FE /* ChieryCommonKit */ = {
+		01DD3C80A8574AED0E7C77EFA37AD2CB /* Pods-ChieryHomePage */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9EE4A36C2A85E315AE48872C26E9FF3C /* Build configuration list for PBXNativeTarget "ChieryCommonKit" */;
+			buildConfigurationList = 1208786BAA61D92FD355273881E2EACC /* Build configuration list for PBXNativeTarget "Pods-ChieryHomePage" */;
 			buildPhases = (
-				529388E4E6685C33275BD6CF60DFCF99 /* Sources */,
-				8F06C04D8D56134C21BAE50688E0D8AF /* Frameworks */,
-				ECB5EA326C4D6CD4362872558CDBA62E /* Headers */,
+				F6BF74554DA6339E70BC51F2673C43CB /* Sources */,
+				82937095B40C41AF4A835005112E5E76 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = ChieryCommonKit;
-			productName = ChieryCommonKit;
-			productReference = BF1CE69FD9E26BB0158CD50DEEB6BF42 /* libChieryCommonKit.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		78E126AE4386B7CE19CE592D6620B50D /* Pods-ChieryHomePage */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E37A9B1D8E47E043BDAF783495E1A09D /* Build configuration list for PBXNativeTarget "Pods-ChieryHomePage" */;
-			buildPhases = (
-				2466E9539C907EAD0A7ED227350371EC /* Sources */,
-				534B5AF69E8F7A213D7E4CB9F74ACE6C /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2A120DB184A7856EE6A95B84918FEF53 /* PBXTargetDependency */,
-				DA9AFAC4C1C9C2103ADF5F34A944809B /* PBXTargetDependency */,
 			);
 			name = "Pods-ChieryHomePage";
 			productName = "Pods-ChieryHomePage";
-			productReference = 446FBEE95C3A17DC6E8CFE01A74E3404 /* libPods-ChieryHomePage.a */;
+			productReference = C5ABBF35F62E91917FD49887748C13CD /* libPods-ChieryHomePage.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		8388242CEE2A2AEAAE44E8487326EC7F /* Pods-ChieryHomePage_a */ = {
+		B08C7612593378727BCA2943AFBB6F03 /* Pods-ChieryHomePage_a */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E60F789768CBCF6C94B373C47FDB8E51 /* Build configuration list for PBXNativeTarget "Pods-ChieryHomePage_a" */;
+			buildConfigurationList = CDBE43A137DA974392FF223512AC6391 /* Build configuration list for PBXNativeTarget "Pods-ChieryHomePage_a" */;
 			buildPhases = (
-				725A2CC102B597D82B7A26F56411793B /* Sources */,
-				6FAF7BBC63614842C7FF2DF8B1A715B6 /* Frameworks */,
+				F899317DAAEDB1FE15313EABDE7C6652 /* Sources */,
+				0163D8389838EA3A655257698A91E457 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				114A4754B78BD017E2536E93D882A371 /* PBXTargetDependency */,
-				113AC55CC2CF24AFDBF8201F098BEF63 /* PBXTargetDependency */,
 			);
 			name = "Pods-ChieryHomePage_a";
 			productName = "Pods-ChieryHomePage_a";
-			productReference = 854CCDCB56DBE26365C6B66A4BFF296E /* libPods-ChieryHomePage_a.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		D64DD468C0E0FF1EE3BF3C7A770CCD89 /* ChieryJumpHandle */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 28F5C2C6F7861BE10E89800B6E38E51B /* Build configuration list for PBXNativeTarget "ChieryJumpHandle" */;
-			buildPhases = (
-				656458883E14E8848016ACBCC8ED7A6F /* Sources */,
-				4C0AF86B9296698AFF6DFAF840C04BF5 /* Frameworks */,
-				311060203B16B3256C291C11CFA0C601 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = ChieryJumpHandle;
-			productName = ChieryJumpHandle;
-			productReference = CF299CC3F98C325B580972D53EA26C25 /* libChieryJumpHandle.a */;
+			productReference = 4C57A90A6CDCE231E4484FB941A97269 /* libPods-ChieryHomePage_a.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -467,183 +246,37 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 0BE9F174EE5EC2DBF12A9B6FBEB9195E /* Products */;
+			productRefGroup = 4F607FD4BD23A3E9DE40869D2838FA40 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2B69B52E463819BB0A45FEDF6204D5FE /* ChieryCommonKit */,
-				D64DD468C0E0FF1EE3BF3C7A770CCD89 /* ChieryJumpHandle */,
-				78E126AE4386B7CE19CE592D6620B50D /* Pods-ChieryHomePage */,
-				8388242CEE2A2AEAAE44E8487326EC7F /* Pods-ChieryHomePage_a */,
+				01DD3C80A8574AED0E7C77EFA37AD2CB /* Pods-ChieryHomePage */,
+				B08C7612593378727BCA2943AFBB6F03 /* Pods-ChieryHomePage_a */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2466E9539C907EAD0A7ED227350371EC /* Sources */ = {
+		F6BF74554DA6339E70BC51F2673C43CB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				522D75C583589DE863482EBC7DAF7871 /* Pods-ChieryHomePage-dummy.m in Sources */,
+				1CD6389330B6C02F9B94960C42AE8D15 /* Pods-ChieryHomePage-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		529388E4E6685C33275BD6CF60DFCF99 /* Sources */ = {
+		F899317DAAEDB1FE15313EABDE7C6652 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2627786E54050BBD0B1539F12E392B52 /* ChieryCommonKit-dummy.m in Sources */,
-				DBF38ACD543B2B72AB6AB72C3AE2C864 /* MASCompositeConstraint.m in Sources */,
-				E6D2CBAD4945B5748C5B57A2905ED4C0 /* MASConstraint.m in Sources */,
-				0BA08D237291963BA9931D06BD759496 /* MASConstraintMaker.m in Sources */,
-				A2A2F684BE8ADAFEA5C649C427C4DCC2 /* MASLayoutConstraint.m in Sources */,
-				FCD80D96327F0441100FFC79B4F9F000 /* MASViewAttribute.m in Sources */,
-				CA63CDE341801E8ACFD7475FA738A967 /* MASViewConstraint.m in Sources */,
-				529767E568A5D9E91ADF64906CDA77B3 /* NSArray+MASAdditions.m in Sources */,
-				CDBAE3DD11962AF80E153A90DAEF4661 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
-				22961DDA0B97186F32B7FA4B19541807 /* View+MASAdditions.m in Sources */,
-				2D90E3198BCD082433B2C68824EC5785 /* ViewController+MASAdditions.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		656458883E14E8848016ACBCC8ED7A6F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				62B86944565D80DFF6AD418B29B2ED07 /* ChieryJumpHandle-dummy.m in Sources */,
-				C2417CF62A3A831570347F15E0846552 /* ChieryJumpHandle.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		725A2CC102B597D82B7A26F56411793B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				417A5DAA7A466DE04A867AB27300458D /* Pods-ChieryHomePage_a-dummy.m in Sources */,
+				5343EBD6201FEF2E3A198808EAE4EC90 /* Pods-ChieryHomePage_a-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		113AC55CC2CF24AFDBF8201F098BEF63 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ChieryJumpHandle;
-			target = D64DD468C0E0FF1EE3BF3C7A770CCD89 /* ChieryJumpHandle */;
-			targetProxy = DF7D331575E32902639E34C5ECEA319F /* PBXContainerItemProxy */;
-		};
-		114A4754B78BD017E2536E93D882A371 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ChieryCommonKit;
-			target = 2B69B52E463819BB0A45FEDF6204D5FE /* ChieryCommonKit */;
-			targetProxy = 44154179202190EDA424A542E89E2A3E /* PBXContainerItemProxy */;
-		};
-		2A120DB184A7856EE6A95B84918FEF53 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ChieryCommonKit;
-			target = 2B69B52E463819BB0A45FEDF6204D5FE /* ChieryCommonKit */;
-			targetProxy = 521F61376BCA5F51C5BA0A2F4A6A39E1 /* PBXContainerItemProxy */;
-		};
-		DA9AFAC4C1C9C2103ADF5F34A944809B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ChieryJumpHandle;
-			target = D64DD468C0E0FF1EE3BF3C7A770CCD89 /* ChieryJumpHandle */;
-			targetProxy = 2DB0EDB94760DA11CB214DCDFF0CFC5B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		17D71CD432917C7AB25BAE3812007150 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 082085A69DB0D64AADB92243FE5891EA /* ChieryJumpHandle.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/ChieryJumpHandle/ChieryJumpHandle-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		22B9082B227DD17B0D8C85F7B7A0291F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 082085A69DB0D64AADB92243FE5891EA /* ChieryJumpHandle.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/ChieryJumpHandle/ChieryJumpHandle-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		3105C601296AF6FAC93E0648514DA832 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B12B7C82501CC13EB66D00D96832B6AB /* ChieryCommonKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/ChieryCommonKit/ChieryCommonKit-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		5CCC4408674855178FCC82043B3E9B64 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B12B7C82501CC13EB66D00D96832B6AB /* ChieryCommonKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/ChieryCommonKit/ChieryCommonKit-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		70D8744A66B49DCE08F89FE5FF00D8F5 /* Release */ = {
+		12FA75904C217FCFE2A32FCF35EF8DA0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 573B151CD39C476773F3CE4C1592BCDB /* Pods-ChieryHomePage_a.release.xcconfig */;
 			buildSettings = {
@@ -663,6 +296,46 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+		827035CC2DA58A2F171EA78AC3B6E0A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8006212C53143FB40E20EAC876995060 /* Pods-ChieryHomePage.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9DC42933E9D86C010C83125458FA2DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3F5AFCC5301797DE7BC2C9047380DC0 /* Pods-ChieryHomePage_a.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 		B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -718,47 +391,6 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
-		};
-		C2047DB3A589AA2CDB4D09CF1B7E0806 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2A31B9A4A654C6078B0CA6779254FE0A /* Pods-ChieryHomePage.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		E38A1B97429D7ECDF482D1EB9E149D21 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C3F5AFCC5301797DE7BC2C9047380DC0 /* Pods-ChieryHomePage_a.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
 		};
 		E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -820,9 +452,9 @@
 			};
 			name = Debug;
 		};
-		FFBC5B874E9FA9EC4A827FC635162EF8 /* Debug */ = {
+		FB93E5FD7A9CA41DC9D1A7E8D0D2857F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8006212C53143FB40E20EAC876995060 /* Pods-ChieryHomePage.debug.xcconfig */;
+			baseConfigurationReference = 2A31B9A4A654C6078B0CA6779254FE0A /* Pods-ChieryHomePage.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -837,17 +469,18 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		28F5C2C6F7861BE10E89800B6E38E51B /* Build configuration list for PBXNativeTarget "ChieryJumpHandle" */ = {
+		1208786BAA61D92FD355273881E2EACC /* Build configuration list for PBXNativeTarget "Pods-ChieryHomePage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				17D71CD432917C7AB25BAE3812007150 /* Debug */,
-				22B9082B227DD17B0D8C85F7B7A0291F /* Release */,
+				827035CC2DA58A2F171EA78AC3B6E0A7 /* Debug */,
+				FB93E5FD7A9CA41DC9D1A7E8D0D2857F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -861,29 +494,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9EE4A36C2A85E315AE48872C26E9FF3C /* Build configuration list for PBXNativeTarget "ChieryCommonKit" */ = {
+		CDBE43A137DA974392FF223512AC6391 /* Build configuration list for PBXNativeTarget "Pods-ChieryHomePage_a" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3105C601296AF6FAC93E0648514DA832 /* Debug */,
-				5CCC4408674855178FCC82043B3E9B64 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E37A9B1D8E47E043BDAF783495E1A09D /* Build configuration list for PBXNativeTarget "Pods-ChieryHomePage" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FFBC5B874E9FA9EC4A827FC635162EF8 /* Debug */,
-				C2047DB3A589AA2CDB4D09CF1B7E0806 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E60F789768CBCF6C94B373C47FDB8E51 /* Build configuration list for PBXNativeTarget "Pods-ChieryHomePage_a" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E38A1B97429D7ECDF482D1EB9E149D21 /* Debug */,
-				70D8744A66B49DCE08F89FE5FF00D8F5 /* Release */,
+				A9DC42933E9D86C010C83125458FA2DD /* Debug */,
+				12FA75904C217FCFE2A32FCF35EF8DA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

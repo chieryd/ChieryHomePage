@@ -80,7 +80,6 @@
 			isa = PBXGroup;
 			children = (
 				29AE6CBA1FFF6C8E00D354A3 /* ChieryHomePage */,
-				C09E96D1200779CF004CDD44 /* ChieryHomePage */,
 				29AE6CB91FFF6C8E00D354A3 /* Products */,
 				DF7BD7B788BCE25A38E1E15A /* Pods */,
 				55ADB9F484E8C900E39E262C /* Frameworks */,
@@ -101,6 +100,7 @@
 			children = (
 				29AE6CBB1FFF6C8E00D354A3 /* ChieryHomePage.h */,
 				29AE6CBC1FFF6C8E00D354A3 /* ChieryHomePage.m */,
+				C09E96D3200779CF004CDD44 /* Info.plist */,
 			);
 			path = ChieryHomePage;
 			sourceTree = "<group>";
@@ -112,14 +112,6 @@
 				EFDF808A2B5933164F89B553 /* libPods-ChieryHomePage_a.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C09E96D1200779CF004CDD44 /* ChieryHomePage */ = {
-			isa = PBXGroup;
-			children = (
-				C09E96D3200779CF004CDD44 /* Info.plist */,
-			);
-			path = ChieryHomePage;
 			sourceTree = "<group>";
 		};
 		DF7BD7B788BCE25A38E1E15A /* Pods */ = {
@@ -265,8 +257,10 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ChieryHomePage_a/Pods-ChieryHomePage_a-resources.sh",
-				"${PODS_ROOT}/ChieryJumpHandle/ChieryJumpHandle/Info.plist",
-				"${PODS_ROOT}/ChieryJumpHandle/ChieryJumpHandle/jumpMap.plist",
+				"${PODS_ROOT}/ChieryCommonKitLib/library/ChieryCommonKit.h",
+				"${PODS_ROOT}/ChieryJumpHandleLib/library/ChieryJumpHandle.h",
+				"${PODS_ROOT}/ChieryJumpHandleLib/library/ChieryJumpHandlePrt.h",
+				"${PODS_ROOT}/ChieryJumpHandleLib/library/ChieryJumpHandleResponsePrt.h",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
@@ -284,8 +278,10 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ChieryHomePage/Pods-ChieryHomePage-resources.sh",
-				"${PODS_ROOT}/ChieryJumpHandle/ChieryJumpHandle/Info.plist",
-				"${PODS_ROOT}/ChieryJumpHandle/ChieryJumpHandle/jumpMap.plist",
+				"${PODS_ROOT}/ChieryCommonKitLib/library/ChieryCommonKit.h",
+				"${PODS_ROOT}/ChieryJumpHandleLib/library/ChieryJumpHandle.h",
+				"${PODS_ROOT}/ChieryJumpHandleLib/library/ChieryJumpHandlePrt.h",
+				"${PODS_ROOT}/ChieryJumpHandleLib/library/ChieryJumpHandleResponsePrt.h",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
@@ -325,7 +321,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "TARGET_NAME=\"ChieryHomePage_a\"\n// Step 1. clean\nrm -rf \"${BUILD_DIR}/${CONFIGURATION}-iphoneos\"\nrm -rf \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator\"\necho \"!!!Will remove folder ${OBJROOT}\"\nrm -rf \"${OBJROOT}\"\n# Step 2. Build Device and Simulator versions\nxcodebuild -workspace ChieryHomePage.xcworkspace -scheme ${TARGET_NAME} ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\n// Step 3. check\nif [ ! -e \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/lib${TARGET_NAME}.a\" ]\nthen\necho \"Build ${TARGET_NAME} for device arch failed\"\nexit -1\nfi\n\nxcodebuild -workspace ChieryHomePage.xcworkspace -scheme ${TARGET_NAME} ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphonesimulator BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" -destination 'platform=iOS Simulator,name=iPhone 6s'\n\n// check\nif [ ! -e \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/lib${TARGET_NAME}.a\" ]\nthen\necho \"Build ${TARGET_NAME} for iphonesimulator arch failed\"\nexit -1\nfi\n# Step 4. define output folder environment variable\nif [ -n \"$StaticLibrary\" ]; then\nUNIVERSAL_OUTPUTFOLDER=$StaticLibrary\nelse\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\nfi\n\n# copy public headers\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/include/${TARGET_NAME}/\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n\n# Step 5. Create universal binary file using lipo\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/lib${TARGET_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/lib${TARGET_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/lib${TARGET_NAME}.a\"\necho \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/lib${TARGET_NAME}.a\"";
+			shellScript = "TARGET_NAME=\"ChieryHomePage_a\"\n// Step 1. clean\nrm -rf \"${BUILD_DIR}/${CONFIGURATION}-iphoneos\"\nrm -rf \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator\"\necho \"!!!Will remove folder ${OBJROOT}\"\nrm -rf \"${OBJROOT}\"\n# Step 2. Build Device and Simulator versions\nxcodebuild -workspace ChieryHomePage.xcworkspace -scheme ${TARGET_NAME} ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\n// Step 3. check\nif [ ! -e \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/lib${TARGET_NAME}.a\" ]\nthen\necho \"Build ${TARGET_NAME} for device arch failed\"\nexit -1\nfi\n\nxcodebuild -workspace ChieryHomePage.xcworkspace -scheme ${TARGET_NAME} ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphonesimulator BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" -destination 'platform=iOS Simulator,name=iPhone 6s'\n\n// check\nif [ ! -e \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/lib${TARGET_NAME}.a\" ]\nthen\necho \"Build ${TARGET_NAME} for iphonesimulator arch failed\"\nexit -1\nfi\n# Step 4. define output folder environment variable\nif [ -n \"$StaticLibrary\" ]; then\nUNIVERSAL_OUTPUTFOLDER=$StaticLibrary\nelse\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\nfi\n\n# copy public headers\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/include/${TARGET_NAME}/\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n\n# Step 5. Create universal binary file using lipo\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/lib${TARGET_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/lib${TARGET_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/lib${TARGET_NAME}.a\"\n\necho \"end path\"\necho \"${UNIVERSAL_OUTPUTFOLDER}/lib${TARGET_NAME}.a\"";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -397,7 +393,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -446,7 +442,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;

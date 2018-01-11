@@ -84,12 +84,16 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_resource "${PODS_ROOT}/ChieryJumpHandle/ChieryJumpHandle/Info.plist"
-  install_resource "${PODS_ROOT}/ChieryJumpHandle/ChieryJumpHandle/jumpMap.plist"
+  install_resource "${PODS_ROOT}/ChieryCommonKitLib/library/ChieryCommonKit.h"
+  install_resource "${PODS_ROOT}/ChieryJumpHandleLib/library/ChieryJumpHandle.h"
+  install_resource "${PODS_ROOT}/ChieryJumpHandleLib/library/ChieryJumpHandlePrt.h"
+  install_resource "${PODS_ROOT}/ChieryJumpHandleLib/library/ChieryJumpHandleResponsePrt.h"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_resource "${PODS_ROOT}/ChieryJumpHandle/ChieryJumpHandle/Info.plist"
-  install_resource "${PODS_ROOT}/ChieryJumpHandle/ChieryJumpHandle/jumpMap.plist"
+  install_resource "${PODS_ROOT}/ChieryCommonKitLib/library/ChieryCommonKit.h"
+  install_resource "${PODS_ROOT}/ChieryJumpHandleLib/library/ChieryJumpHandle.h"
+  install_resource "${PODS_ROOT}/ChieryJumpHandleLib/library/ChieryJumpHandlePrt.h"
+  install_resource "${PODS_ROOT}/ChieryJumpHandleLib/library/ChieryJumpHandleResponsePrt.h"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

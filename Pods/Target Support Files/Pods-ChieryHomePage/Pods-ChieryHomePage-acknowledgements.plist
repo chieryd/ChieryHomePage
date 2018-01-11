@@ -20,7 +20,7 @@ Permission is granted to...
 			<key>License</key>
 			<string>MIT</string>
 			<key>Title</key>
-			<string>ChieryCommonKit</string>
+			<string>ChieryCommonKitLib</string>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 		</dict>
@@ -32,7 +32,7 @@ Permission is granted to...
 			<key>License</key>
 			<string>MIT</string>
 			<key>Title</key>
-			<string>ChieryJumpHandle</string>
+			<string>ChieryJumpHandleLib</string>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 		</dict>

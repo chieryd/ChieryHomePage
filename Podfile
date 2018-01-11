@@ -6,14 +6,14 @@ source 'git@github.com:chieryd/ChieryPodSpec.git'
 
 target 'ChieryHomePage' do
 
-	pod 'ChieryCommonKit'
-	pod 'ChieryJumpHandle'
+	pod 'ChieryCommonKitLib'
+	pod 'ChieryJumpHandleLib'
 
 end
 
 target 'ChieryHomePage_a' do
     
-    pod 'ChieryCommonKit'
-    pod 'ChieryJumpHandle'
+    pod 'ChieryCommonKitLib'
+    pod 'ChieryJumpHandleLib'
     
 end
