@@ -36,7 +36,8 @@
     [self.business2Button mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.with.height.equalTo(@100);
         make.left.equalTo(self.business1Button.mas_right).offset(20);
-    }];}
+    }];
+}
 
 - (void)business1Action {
     [ChieryJumpHandle jumpHandleOpenURL:[NSURL URLWithString:@"chieryiphone://business1/homePage?q=1"]];
