@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ChieryHomePage"
-  s.version      = "0.0.6"
+  s.version      = "0.0.7"
   s.summary      = "首页相关"
 
   # This description is used to generate tags and improve search results.
@@ -88,6 +88,9 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/chieryd/ChieryHomePage.git", :tag => "#{s.version}" }
 
 
+  s.dependency "ChieryCommonKitLib"
+  s.dependency "ChieryJumpHandleLib"
+
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  CocoaPods is smart about how it includes source code. For source files
@@ -138,8 +141,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  s.dependency "ChieryCommonKitLib"
-  s.dependency "ChieryJumpHandleLib"
+  
 
 
 end
